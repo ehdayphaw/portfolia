@@ -404,7 +404,125 @@ p {
 
 #mypricing{
     text-align: center;
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
 }
+
+#mypricing h1{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#mypricing .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+
+}
+
+#mypricing .container .box i{
+    font-size: 4rem;
+    color: #9EF23E;
+    padding: 1rem;
+}
+
+#mypricing .container .box{
+    
+    width: 350px;
+    height: 400px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: #fff;
+    
+
+}
+
+#mypricing .container .box:hover{
+    box-shadow: 0 0 60px #ccc;
+    cursor: pointer;
+}
+
+#mypricing .container .box ul li{
+    list-style: none;
+    line-height: 2rem;
+}
+
+#mypricing .container .box .price span{
+    line-height: 4rem;
+    font-size: 2rem;
+}
+
+#mypricing .container .box .btn{
+    width: 350px;
+    border-radius: 0 0 20px 20px;
+}
+
+/* Contact */
+
+#mycontact {
+    text-align: center;
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+#mycontact h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#mycontact p{
+    margin-bottom: 20px;
+}
+
+#mycontact form{
+    padding: 20px 40px;
+    background: #fff;
+}
+
+#mycontact form * {
+    
+    width: 100%;
+    padding: 20px;
+    border: 0;
+    border-bottom: 2px solid #eee;
+    resize: none;
+}
+
+#contact .btn{
+    width: fit-content;
+    
+
+}
+
+/* end */
+
+.end{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.end .icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+.end .icon i {
+    font-size: 3em;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+ }
+  
+.nav-menu.active {
+    display: block;
+  
+
 
 #up{
     background-color: darkgray;
